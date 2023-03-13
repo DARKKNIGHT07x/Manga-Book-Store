@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Payment</title>
+    <link rel="stylesheet" type="text/css" href="amazon.css">
+    <style type="text/css">
+    	.form{
+    		height: 600px;
+    	}
+    </style>
+</head>
+<body>
+  <div class="form_bg">
+            <form class="form" method="POST" action="success.html">
+        <h4>Payment form</h4>
+        <label>First Name :</label><br>
+        <input type="name" name="f_name" required="" value="Rudra" style="font-size: 20px;"><br>
+        <label>Last Name:</label><br>
+        <input type="name" name="l_name" required="" value="Potghan" style="font-size: 20px;"><br>
+          <label>Email:</label><br>
+        <input type="email" name="email" required="" value="Rudra@gmail.com" style="font-size: 20px;"><br>
+          <label>Phone No</label><br>
+        <input type="number" name="ph_no" required="" value="1234567890" style="font-size: 20px;"><br>
+        <label>Address :</label><br>
+        <input type="address" name="Unknown"  style="font-size: 20px;"><br>
+         <label>Price :</label><br>
+        <input type="text" name="price" value="Rs 685"  style="font-size: 20px;"><br>
+        <select name="country" required="">
+            <option>Credit Card</option>
+            <option>Paypal</option>
+            <option>Crypto</option>
+            
+        </select><br><br>
+           <button type="submit" name="submit">Confirm Order</button>
+
+    </form>
+          </div>
+</body>
+</html>

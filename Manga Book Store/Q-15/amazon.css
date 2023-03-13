@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.flex{
+	display: flex;
+	background: black;
+	color: white;
+	padding: 5px;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.flex div > img{
+	width: 100px;
+}
+.search_box > input{
+   width: 600px;
+   height: 35px;
+   border-radius: 4px;
+}
+
+.search_box > button{
+	width: 50px;
+	height: 25px;
+	margin-left: 0;
+}
+
+
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.book_collection{
+	background-color: white;
+	border: 20px solid lightgrey;
+	width: 1000px;
+    padding: 8px;
+    font-size: 22px;
+	margin: 30px auto;
+}
+.flex2{
+	display: flex;
+	color: white;
+	padding: 5px;
+	align-items: center;
+	justify-content: space-around;
+}
+.flex2 div a{
+
+	margin-left: 50px;
+	color: black;
+	text-decoration: none;
+
+}
+.flex2 div img{
+	width: 200px;
+	margin: 10px;
+}
+/*===============registration css==========*/
+.form_bg{
+	background:url(books_img/register_form_bg.jpg);
+	height: 700px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+  border: 2px solid blue;
+}
+.form h4{
+	font-weight: 520;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.form{
+	padding: 40px;
+  border-radius: 5px;
+	background: white;
+	height: 430px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	margin: 60px auto;
+	width: 455px;
+}
+select{
+	margin-top: 10px;
+}
+.form button{
+	margin: 0 auto;
+  width: 90%;
+  padding: 9px ;
+  font-size: 18px;
+   color: white;
+   background: #357EC7;
+   border: none;
+}
+.form input{
+	border: none;
+	border-bottom: 2px solid blue;
+	width: 200px;
+	margin: 8px 0;
+}
